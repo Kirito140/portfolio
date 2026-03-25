@@ -1,8 +1,8 @@
 {
-  "name": "react-portfolio-template",
+  "name": "maxence-campourcy-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kirito140.github.io/portfolio/",
+  "homepage": "https://Kirito140.github.io/portfolio/",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
@@ -59,6 +59,7 @@
   },
   "devDependencies": {
     "@types/react-vertical-timeline-component": "^3.3.6",
-    "cross-env": "^10.1.0"
+    "cross-env": "^10.1.0",
+    "gh-pages": "^6.3.0"
   }
 }
