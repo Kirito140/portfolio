@@ -17,8 +17,8 @@ function Project() {
       </p>,
       link: "https://github.com/Kirito140/portfolio",
       images: [
-        { src: "/images/projects/portfolio1.png", alt: "Portfolio Screenshot 1" },
-        { src: "/images/projects/portfolio2.png", alt: "Portfolio Screenshot 2" },
+        { src: "portfolio/images/projects/portfolio1.png", alt: "Portfolio Screenshot 1" },
+        { src: "portfolio/images/projects/portfolio2.png", alt: "Portfolio Screenshot 2" },
       ],
     },
     {
@@ -49,7 +49,7 @@ function Project() {
       description: <span>Application de gestion de Workflow pour les entreprises travaille en groupe de 6 personnes, je me suis occupé avec un camarade la partie editeur / execution de workflow, la partie editeur a été réalisé en React Typescript et la partie execution en Java Spring Boot via une API REST, les données sont stocké dans une base Firebase.</span>,
       date: "2025 - 2026",
       images: [
-        { src: "/images/projects/olga_workflows.png", alt: "WORDE Screenshot 1" },
+        { src: "portfolio/images/projects/olga_workflows.png", alt: "WORDE Screenshot 1" },
       ],
     },
   ];
