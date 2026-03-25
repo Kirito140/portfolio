@@ -1,0 +1,82 @@
+/* =========================
+   🕒 TIMELINE BASE
+========================= */
+
+.vertical-timeline {
+  span {
+    font-family: "Courier Prime", monospace;
+    color: var(--text);
+  }
+
+  p {
+    color: var(--text-muted);
+  }
+}
+
+.vertical-timeline-element {
+  p,
+  h3,
+  h4,
+  span {
+    color: var(--text);
+  }
+
+  .vertical-timeline-element-date {
+    // couleur claire obscure
+    color: #e0e0e0;
+  }
+}
+
+/* Icônes */
+.svg-inline--fa {
+  color: var(--text);
+}
+
+/* =========================
+   📱 RESPONSIVE
+========================= */
+
+@media screen and (max-width: 1170px) {
+  .vertical-timeline-element {
+    .vertical-timeline-element-date {
+      color: var(--text);
+    }
+  }
+}
+
+/* =========================
+   ☀️ LIGHT MODE OVERRIDE
+========================= */
+
+.light-mode {
+  .vertical-timeline--animate .vertical-timeline-element-icon.bounce-in {
+    box-shadow:
+      0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+      0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  }
+
+  .vertical-timeline::before {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+  }
+  .vertical-timeline::after {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+  }
+
+  .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
+    box-shadow:
+      0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+      0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  }
+
+  .vertical-timeline--two-columns
+    .vertical-timeline-element-content
+    .vertical-timeline-element-date {
+    color: black !important;
+  }
+
+  .vertical-timeline-element-content-arrow {
+    border-right: 7px solid rgba(0, 0, 0, 0.08) !important;
+  }
+}

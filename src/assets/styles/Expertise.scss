@@ -1,0 +1,113 @@
+
+/* Container global */
+.skills-container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.skills-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  .skill-card {
+    background-color: #161b22;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    box-shadow:
+      0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+      0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  .skill-card:hover {
+    background-color: #21262d;
+  }
+
+  .skill-card h3 {
+    color: #c9d1d9;
+    margin-bottom: 10px;
+  }
+
+  .icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    color: #c9d1d9;
+  }
+
+  .skill-description {
+    color: #c9d1d9;
+    margin-bottom: 10px;
+  }
+
+  .flex-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .chip-title {
+    color: #c9d1d9;
+    margin-right: 5px;
+  }
+
+  .chip {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+  }
+}
+
+.light-mode {
+  .skills-container svg {
+    color: #0d1116;
+  }
+
+  .skill-card {
+    background-color: #e0e0e0 !important;
+  }
+
+  .skill-card:hover {
+    background-color: #d0d0d0 !important;
+  }
+
+  .chip {
+    background-color: rgba(0, 0, 0, 0.08);
+    box-shadow:
+      0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+      0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  }
+
+  .chip:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .skill-card h3,
+  .skill-description,
+  .chip-title {
+    color: #0d1116 !important;
+  }
+
+  .skill-card {
+    box-shadow:
+      0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+      0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+      0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  }
+
+  .skill-card:hover {
+    box-shadow:
+      0px 3px 1px -2px rgba(0, 0, 0, 0.3),
+      0px 2px 4px 0px rgba(0, 0, 0, 0.2),
+      0px 1px 10px 0px rgba(0, 0, 0, 0.15);
+  }
+}
