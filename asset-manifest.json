@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "https://Kirito140.github.io/portfolio/static/css/main.582b6ece.css",
-    "main.js": "https://Kirito140.github.io/portfolio/static/js/main.d9afe4eb.js",
-    "static/js/453.21f29401.chunk.js": "https://Kirito140.github.io/portfolio/static/js/453.21f29401.chunk.js",
-    "static/media/bg-light.png": "https://Kirito140.github.io/portfolio/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/bg-dark.png": "https://Kirito140.github.io/portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
-    "index.html": "https://Kirito140.github.io/portfolio/index.html",
-    "main.582b6ece.css.map": "https://Kirito140.github.io/portfolio/static/css/main.582b6ece.css.map",
-    "main.d9afe4eb.js.map": "https://Kirito140.github.io/portfolio/static/js/main.d9afe4eb.js.map",
-    "453.21f29401.chunk.js.map": "https://Kirito140.github.io/portfolio/static/js/453.21f29401.chunk.js.map"
+    "main.css": "https://localhost:2000/static/css/main.ba48470f.css",
+    "main.js": "https://localhost:2000/static/js/main.d751ec60.js",
+    "static/js/453.21f29401.chunk.js": "https://localhost:2000/static/js/453.21f29401.chunk.js",
+    "static/media/bg-light.png": "https://localhost:2000/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "https://localhost:2000/static/media/bg-dark.f420c6b8458af72de935.png",
+    "index.html": "https://localhost:2000/index.html",
+    "main.ba48470f.css.map": "https://localhost:2000/static/css/main.ba48470f.css.map",
+    "main.d751ec60.js.map": "https://localhost:2000/static/js/main.d751ec60.js.map",
+    "453.21f29401.chunk.js.map": "https://localhost:2000/static/js/453.21f29401.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.582b6ece.css",
-    "static/js/main.d9afe4eb.js"
+    "static/css/main.ba48470f.css",
+    "static/js/main.d751ec60.js"
   ]
 }
