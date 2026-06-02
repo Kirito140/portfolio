@@ -84,15 +84,21 @@ const timeline: TimelineItem[] = [
       city: "Alfortville",
       country: "France",
     },
-    description: <p>
-      Refonte d'un site du site de logement <a href="https://domaxia.fr" target="_blank" rel="noopener noreferrer">Domaxia</a> à l'aide du template Wordpress du site de base <a href="https://logial-coop.fr" target="_blank" rel="noopener noreferrer">Logial-Coop</a>
-    </p>,
+    description: <div>
+      <p>
+        Refonte d'un site du site de logement <a href="https://domaxia.fr" target="_blank" rel="noopener noreferrer">Domaxia</a> à l'aide du template Wordpress du site de base <a href="https://logial-coop.fr" target="_blank" rel="noopener noreferrer">Logial-Coop</a>
+      </p>
+      <p>
+          Application de gestion RGPD pour entreprises, inspirée d'un modèle CNIL. Gestion des utilisateurs, choix du service et consultation des traitements par service.
+      </p>
+    </div>,
     date: {
       start: "02/03/2026",
       end: "en cours",
     },
     icon: TimelineIcons.WORK,
   },
+
 ];
 
 function Timeline() {

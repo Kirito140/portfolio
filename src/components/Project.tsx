@@ -2,6 +2,7 @@ import React from "react";
 import { type Projects } from "../utils/types";
 import Education from "./Projects/Education";
 import Personal from "./Projects/Personnal";
+import Professional from "./Projects/Profesionel";
 
 function Project() {
 
@@ -53,11 +54,25 @@ function Project() {
       ],
     },
   ];
+  const professionalProjects: Projects[] = [
+    {
+      id: 1,
+      title: "Stockage des traitements RGPD",
+      description: <span>Application de gestion du stockage des traitements RGPD pour les entreprises, ce site ce base sur l'exemple données par le CNIL, il y a différents roles user / admin, on peut choisir dans quel service le traitement appartient (si on est admin sinon a met en fonction du service du user) et on peut voir l'ensemble des traitements stocké. un admin à accès a tous les services et leurs traitements, un user a accès aux traitements de son service. </span>,
+      date: "2023 - 2024",
+      images: [
+        { src: "portfolio/images/projects/logial_rgpd.png", alt: "Stockage RGPD Actors" },
+        { src: "portfolio/images/projects/logial_rgpd_users.png", alt: "Stockage RGPD Users" },
+        { src: "portfolio/images/projects/logial_rgpd_add_traitement.png", alt: "Stockage RGPD ajout d'un traitement" },
+      ],
+    },
+  ];
 
   return (
     <>
       <Personal items={personalProjects} />
       <Education items={educationProjects} />
+      <Professional items={professionalProjects} />
     </>
   );
 }
